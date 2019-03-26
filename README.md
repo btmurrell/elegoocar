@@ -14,6 +14,18 @@ Also, you will notice that the [examples/demo.cpp](./examples/demo.cpp) has a `.
 
 A demo of some of the features of this `ElegooCar` library exists in [examples/demo.cpp](./examples/demo.cpp).  To try out this demo, you need to copy it to your `./src` directory.  The PlatformIO build/upload system will only recognize files under your `/.src` directory.
 
+## Consuming this library
+
+If you are using PlatformIO (as you should be), it is very simple to use this (or any) library.  In your project directyory, edit the file `platformio.ini` to add this `lib_deps` line to the `[env:uno]` section:
+
+```ini
+[env:uno]
+lib_deps = 
+  https://github.com/btmurrell/elegoocar.git
+```
+
+Save the file. Then proceed with the example and APIs below. When you build your project, it will bring this library in automatically to your system. That's it!
+
 ## ElegooCar API
 
 To use the API, be sure you include the header and an instance at the top. Do _not_ put it in your setup() method. Put it at the top of your `.cpp` file:
