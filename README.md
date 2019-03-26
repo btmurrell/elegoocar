@@ -42,29 +42,29 @@ In the APIs below, the int `speed` parameter is the speed you want the car (or w
 
 ### `car.forward(int speed [, int duration])`
 
-The `forward` method will move the car forward at the given speed, for the given duration in miliseconds. You may omit the duration parameter, which will cause the care to continue this motion until another command is given.
+The `forward` method will move the car forward at the given speed, for the given duration in miliseconds. You may omit the duration parameter, which will cause the car to continue this motion until another command is given.
 
 ### `car.reverse(int speed [, int duration])`
 
-The `reverse` method will move the car in reverse at the given speed, for the given duration in miliseconds. You may omit the duration parameter, which will cause the care to continue this motion until another command is given.
+The `reverse` method will move the car in reverse at the given speed, for the given duration in miliseconds. You may omit the duration parameter, which will cause the car to continue this motion until another command is given.
 
 ### `car.stop(int duration)`
 
-The `stop` method will make all the wheels on the car stop for the specified duration in miliseconds. You may omit the duration parameter, which will cause the care to continue this motion until another command is given.
+The `stop` method will make all the wheels on the car stop for the specified duration in miliseconds. You may omit the duration parameter, which will cause the car to continue this motion until another command is given.
 
 ### `car.fwdRight(int speed [, int duration])`
 
-The `fwdRight` method will move the car in a forward, right direction, at the given speed for the given duration in milliseconds. You may omit the duration parameter, which will cause the care to continue this motion until another command is given. 
+The `fwdRight` method will move the car in a forward, right direction, at the given speed for the given duration in milliseconds. You may omit the duration parameter, which will cause the car to continue this motion until another command is given. 
 
 ### `car.fwdLeft(int speed [, int duration])`
 
-The `fwdLeft` method will move the car in a forward, left direction, at the given speed for the given duration in milliseconds. You may omit the duration parameter, which will cause the care to continue this motion until another command is given. 
+The `fwdLeft` method will move the car in a forward, left direction, at the given speed for the given duration in milliseconds. You may omit the duration parameter, which will cause the car to continue this motion until another command is given. 
 
 ### `car.backRight(int speed [, int duration])`
 
-The `backRight` method will move the car in a backward, right direction, at the given speed for the given duration in milliseconds. You may omit the duration parameter, which will cause the care to continue this motion until another command is given. 
+The `backRight` method will move the car in a backward, right direction, at the given speed for the given duration in milliseconds. You may omit the duration parameter, which will cause the car to continue this motion until another command is given. 
 
 ### `car.backLeft(int speed [, int duration])`
 
-The `backLeft` method will move the car in a backward, left direction, at the given speed for the given duration in milliseconds. You may omit the duration parameter, which will cause the care to continue this motion until another command is given. 
+The `backLeft` method will move the car in a backward, left direction, at the given speed for the given duration in milliseconds. You may omit the duration parameter, which will cause the car to continue this motion until another command is given. 
 

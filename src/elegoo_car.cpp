@@ -1,4 +1,5 @@
 #include "elegoo_car.h"
+#include "Arduino.h"
 
 ElegooCar::ElegooCar()
 {
