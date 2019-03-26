@@ -8,7 +8,9 @@ If you are not using the [PlatformIO IDE](https://platformio.org/platformio-ide)
 
 Take a short while to [familiarize yourself](https://docs.platformio.org/en/latest/ide/pioide.html) with this editor. You will be way more productive and happy using it over the Arduino editor (which they shamefully call an IDE).  PlatformIO IDE is practically zero configuration to get it up and running.
 
-Also, you will notice that the [examples/demo.cpp](./examples/demo.cpp) has a `.cpp` (C++ language) extension, not a `.ino` (Arduino) extension.  This is to make IntelliSense in VS Code work for you.  See [explanation here](https://docs.platformio.org/en/latest/faq.html#convert-arduino-file-to-c-manually).  All `.ino` files are compiled to C++ under the hood anyway.
+### About `.ino` and `.cpp` files
+
+You will notice that the [examples/demo.cpp](./examples/demo.cpp) has a `.cpp` (C++ language) extension, not a `.ino` (Arduino) extension.  This is to make [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) in VS Code work for you.  See [explanation here](https://docs.platformio.org/en/latest/faq.html#convert-arduino-file-to-c-manually).  All `.ino` files are compiled to C++ under the hood anyway.
 
 ## Example
 
